@@ -19,8 +19,9 @@ public class Car {
     }
 
     public boolean isConvertible() {
-            return convertible;
+        return convertible;
     }
+
     public int getDoors() {
         return doors;
     }
@@ -42,7 +43,7 @@ public class Car {
     public String toString() {
         return
                 "Model: '" + model.toUpperCase() + '\'' +
-                ", convertible: " + convertible +
-                ", number of doors: " + doors;
+                        ", convertible: " + convertible +
+                        ", number of doors: " + doors;
     }
 }
